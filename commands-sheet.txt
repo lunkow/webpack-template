@@ -1,0 +1,25 @@
+// https://www.youtube.com/watch?v=JcKRovPhGo8&list=PLkCrmfIT6LBQWN02hNj6r1daz7965GxsV
+npm init // заплоняем => package.json
+
+npm install webpack webpack-cli webpack-dev-server path --save-dev
+// тут перечисление устанавливаемых пакетов 
+//(--save-dev - тк настройка среды окружения и она должна находиться в dev dependences)
+
+
+npm run dev
+npm run start:dev
+
+// https://github.com/webpack/webpack-dev-server/issues/2759 - Yes - webpack-dev-server does not work with webpack-cli v4  => нужно использовать serve
+
+npm run build
+
+
+npm install @babel/core @babel/preset-env babel-loader --save-dev
+
+npm install mini-css-extract-plugin --save-dev
+
+npm install css-loader style-loader --save-dev
+
+npm install sass-loader node-sass --save-dev
+
+npm install postcss-loader autoprefixer css-mqpacker cssnano --save-dev
