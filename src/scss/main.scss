@@ -9,3 +9,21 @@ h2 {
 h3 {
     color: red;
 }
+
+@media screen and (max-width: 1600px) {
+    h1 {
+        color: olive;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+// comments
